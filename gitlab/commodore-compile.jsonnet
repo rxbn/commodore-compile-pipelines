@@ -1,4 +1,4 @@
-local commodore_version = 'v1.28.0';
+local commodore_version = 'v1.28.1';
 local commodore_image = 'docker.io/projectsyn/commodore:' + commodore_version;
 
 local to_array(param) = std.foldl(
